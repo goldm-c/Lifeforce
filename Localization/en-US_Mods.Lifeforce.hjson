@@ -1,0 +1,30 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	PoundingHeart: {
+		DisplayName: Pounding Heart
+		Tooltip: Creates a ripple of blood around you
+	}
+
+	VampireFangs: {
+		DisplayName: Vampire Fangs
+		Tooltip:
+			'''
+			10% increased sanguine lifesteal
+			'I vant to suck your blood!'
+			'''
+	}
+}
+
+Common: {
+	ConsumesXLifeText: Consumes {0} life
+	StealsXLifeText: Restores {0} life upon hit
+	PercentIncreasedSanguineDamage: "{0}% increased sanguine damage"
+	PercentIncreasedSanguineCritChance: "{0}% increased sanguine critical strike chance"
+}
+
+DamageClasses.SanguineClass.DisplayName: sanguine damage
+
+Projectiles: {
+	Heartbeat.DisplayName: Heartbeat
+}
