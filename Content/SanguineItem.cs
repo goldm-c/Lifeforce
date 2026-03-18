@@ -3,6 +3,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.Localization;
 using System.Collections.Generic;
+using System;
 
 namespace Lifeforce.Content
 {
@@ -24,14 +25,14 @@ namespace Lifeforce.Content
 			tooltips.Insert(6, new TooltipLine(Mod, "StealsXLife", string.Format(lstext, lifesteal.ToString())));
 		}
 		
-		public virtual void ModifyLifesteal(float scale)
+		public virtual void ModifyLifesteal(float scale) //Not used yet.
 		{
-			//lifesteal += scale;
+			lifesteal += (int)Math.Round(scale);
 		}
 		
-		public virtual void ModifyLifeConsumption(float scale)
+		public virtual void ModifyLifeConsumption(float scale) //Not used yet.
 		{
-			//lifeConsumption += scale;
+			lifeConsumption += (int)Math.Round(scale);
 		}
 		
 		public override bool? UseItem(Player player) {
