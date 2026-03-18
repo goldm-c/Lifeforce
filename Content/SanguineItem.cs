@@ -26,12 +26,12 @@ namespace Lifeforce.Content
 		
 		public virtual void ModifyLifesteal(float scale)
 		{
-			lifesteal += scale;
+			//lifesteal += scale;
 		}
 		
 		public virtual void ModifyLifeConsumption(float scale)
 		{
-			lifeConsumption += scale;
+			//lifeConsumption += scale;
 		}
 		
 		public override bool? UseItem(Player player) {

@@ -24,7 +24,4 @@ Common: {
 }
 
 DamageClasses.SanguineClass.DisplayName: sanguine damage
-
-Projectiles: {
-	Heartbeat.DisplayName: Heartbeat
-}
+Projectiles.Heartbeat.DisplayName: Heartbeat
